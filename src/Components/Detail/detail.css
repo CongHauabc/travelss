@@ -1,0 +1,16 @@
+.detail {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.3);
+  justify-content: center;
+  align-items: center;
+  z-index: 100000;
+}
+.detail .detailContent {
+  background-color: white;
+  position: absolute;
+}/*# sourceMappingURL=detail.css.map */
