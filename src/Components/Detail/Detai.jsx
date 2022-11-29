@@ -20,7 +20,7 @@ const Detai = () => {
   console.log(detail);
   return (
     <div className="detail">
-      <div className="detailContent">
+      <div data-aos="zoom-in-down" className="detailContent">
         <div className="imgdetail">
           <img src={detail.imgSrs} />
         </div>

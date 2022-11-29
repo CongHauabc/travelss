@@ -25,7 +25,7 @@ function Navbar() {
           <a href="" className="logo flex">
             <h1>
               <MdOutlineTravelExplore className="icon" />
-              SAMSUNG.
+              TRAVEL.
             </h1>
           </a>
         </div>
