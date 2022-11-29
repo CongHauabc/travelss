@@ -6,6 +6,8 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import { Link } from "react-router-dom";
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 const Detai = () => {
   const [detail, setDetail] = useState({});
   useEffect(() => {
@@ -20,7 +22,7 @@ const Detai = () => {
   console.log(detail);
   return (
     <div className="detail">
-      <div className="detailContent">
+      <div data-aos="flip-up" className="detailContent">
         <div className="imgdetail">
           <img src={detail.imgSrs} />
         </div>
