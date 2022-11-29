@@ -13,4 +13,27 @@
 .detail .detailContent {
   background-color: white;
   position: absolute;
+  display: flex;
+  width: 95%;
+  padding: 40px;
+}
+.detail .detailContent .imgdetail {
+  width: 40%;
+  margin-right: 5%;
+}
+.detail .detailContent .imgdetail img {
+  height: 550px;
+  width: 450px;
+}
+.detail .detailContent .detailscontent {
+  width: 55%;
+}
+.detail .detailContent .detailscontent .btn {
+  padding: 10px;
+  color: white;
+}
+.detail .detailContent .detailscontent .btnclose {
+  position: absolute;
+  top: 0;
+  right: 0;
 }/*# sourceMappingURL=detail.css.map */
