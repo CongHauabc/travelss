@@ -2,11 +2,11 @@ import img1 from "../assets/img1.jpg";
 import img2 from "../assets/img2.jpg";
 import img3 from "../assets/img3.jpg";
 import img4 from "../assets/img4.jpg";
-export const Data = [
+export  const Data = [
     {
       id: 1,
       imgSrs: img1,
-      destTitle: "Bora Bora",
+      destTitle: "Villa1",
       location: "Việt Nam",
       grace: "Hà Nội",
       fees: 700,
@@ -16,8 +16,8 @@ export const Data = [
     {
       id: 2,
       imgSrs: img2,
-      destTitle: "Bora Bora",
-      location: "Việt Nam",
+      destTitle: "Villa2",
+      location: "Thái Lan",
       grace: "Hà Nội",
       fees: 700,
       description:
@@ -26,7 +26,7 @@ export const Data = [
     {
       id: 3,
       imgSrs: img3,
-      destTitle: "Bora Bora",
+      destTitle: "Villa3",
       location: "Việt Nam",
       grace: "Hà Nội",
       fees: 700,
@@ -36,7 +36,7 @@ export const Data = [
     {
       id: 4,
       imgSrs: img4,
-      destTitle: "Bora Bora",
+      destTitle: "Villa4",
       location: "Việt Nam",
       grace: "Hà Nội",
       fees: 700,
