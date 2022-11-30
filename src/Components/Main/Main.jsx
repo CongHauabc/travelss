@@ -28,7 +28,7 @@ function Main() {
           return (
             <div key={datas.id} data-aos="zoom-in-up"  className="singleDestination">
               <div className="imageDiv">
-                <img src={datas.imgSrs} alt={datas.destTitle} />
+                <img src={datas.imgSrs[0]} alt={datas.destTitle} />
               </div>
               <div className="cardInfo">
                 <h4 className="destTitle">{datas.destTitle}</h4>

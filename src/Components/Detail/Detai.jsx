@@ -14,15 +14,17 @@ const Detai = () => {
     });
 
     setDetail(details);
-  }, []);
+  });
+  
+  
  
   const param = useParams();
-  console.log(detail);
+  console.log(detail.imgSrs);
   return (
     <div className="detail">
       <div data-aos="zoom-in-down" className="detailContent">
         <div className="imgdetail">
-          <img src={detail.imgSrs} />
+        <img src={detail.imgSrs[0]} alt={detail.destTitle} />
         </div>
         <div className="detailscontent">
           <h1>{detail.destTitle}</h1>
